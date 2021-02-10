@@ -3,5 +3,10 @@
 <title>Blog tele</title>
 <link>https://teleguest.github.io/blog/</link>
 <description>Powiadomenia o nowych wpisach na Blogu tele</description>
+ <item>
+<title>Moja Opinia o IRC</title>
+<link>https://teleguest.github.io/blog/post/2021-2-10.html</link>
+<description>2 lutego 2021 roku</description>
+</item>
 </channel>
 </rss>
