@@ -1,0 +1,15 @@
+body{
+    background-color: #000000;
+    color: #ffffffff;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+#bordergrub{
+    border: ridge;
+}
+
+#os1{
+    background-color: #ffffff;
+    color: #000000;
+    width: 200px;
+}
