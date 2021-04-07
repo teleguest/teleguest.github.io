@@ -3,19 +3,12 @@
 <title>Forum XML tele</title>
 <link>https://teleguest.github.io/feed.xml</link>
 <description>Powiadomenia z forum xml tele</description>
-<item>
+ <item>
 <title>witam!</title>
 <link>https://teleguest.github.io/feed.xml</link>
 <description>
 witam na forum xml, to ja tele
-</description>
-</item>
-<item>
-<title>test</title>
-<link>https://teleguest.github.io/feed.xml</link>
-<description>
-test tele
-</description>
+ </description>
 </item>
 </channel>
 </rss>
