@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeleTasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>TeleTasks</h1>
+        <p>
+            ✖️ - nie zrobione
+            <br /> 
+            ✔️ - zrobione
+        </p>
+        <hr>
+        <h2>zadania</h2>
+        <li v-for="tasks in tasks">{{tasks.status}} {{tasks.name}} {{tasks.date}}</li>
+    </div>
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                tasks: [
+                    {name: "zrobić system komentarzy do OnionTube", status: "✖️", date: "[26.4.2021]"},
+                    {name: "nagrać film o chinskiej konsoli", status: "✖️", date: "[26.4.2021]"}
+                ]
+            }
+        })
+    </script>
+</body>
+</html>
