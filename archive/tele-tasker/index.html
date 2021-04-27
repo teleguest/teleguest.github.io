@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeleTasks</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
 <body>
     <div id="app">
@@ -20,6 +19,7 @@
         <h2>zadania</h2>
         <li v-for="tasks in tasks">{{tasks.status}} {{tasks.name}} {{tasks.date}}</li>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="tasks.js"></script>
 </body>
 </html>
