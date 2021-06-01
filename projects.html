@@ -1,44 +1,41 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="telewebsite">
-    <meta name="description" content="strona tele">
-    <title>telewebsite - Linki</title>
+    <title>telewebsite - Projekty</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="navLink">Home</a>
-        <a href="links.html" class="navLink">Linki</a>
-        <a href="blog/" class="navLink">Blog</a>
-        <a href="about.html" class="navLink">o mnie</a>
-        <a href="projects.html" class="navLink">Projekty</a>
-        <h1>telewebsite</h1>
-    </nav>
-    <br />
-    <div id="main" align="center">
-        <h3>Donate send Simulator</h3>
-      <p>opis: Symulator wysłania Donate napisany w JavaScript</p>
-      <img src="/img/project_screenshot1.png">
-      <br />
-      <a href="https://teleguest.github.io/Donate-send-Simulator/">Strona</a>
-      <br />
-      <a href="https://github.com/teleguest/Donate-send-Simulator">Kod Źródłowy</a>
-      <br /><br />
-      <h3>CubeGame</h3>
-      <p>opis: gra o tworzeniu własnego świata z bloków</p>
-      <img id="slider-pr1" width="550" height="455" src="/img/cubegame-menu.png">
-      <br />
-      <button onclick="slide1()">1</button>
-      <button onclick="slide2()">2</button>
-      <br />
-      <a href="https://cubegamewebsite.netlify.app/">Strona</a>
-      <br />
-      <a href="https://gamejolt.com/games/Cube-Game/548233">Pobierz</a>
-    </div>
-    <script src="/js/sliders.js"></script>
+    <div id="background"></div>
+        <nav>
+                <a href="/index.html" class="navLink">Home</a>
+                <a href="/links.html" class="navLink">Linki</a>
+                <a href="/blog/index.html" class="navLink">Blog</a>
+                <a href="/about.html" class="navLink">o mnie</a>
+                <a href="/projects.html" class="navLink">Projekty</a>
+        </nav>
+        <div id="page">
+          <h3>Donate send Simulator</h3>
+          <p>opis: Symulator wysłania Donate napisany w JavaScript</p>
+          <img src="/img/project_screenshot1.png">
+          <br />
+          <a href="https://teleguest.github.io/Donate-send-Simulator/">Strona</a>
+          <br />
+          <a href="https://github.com/teleguest/Donate-send-Simulator">Kod Źródłowy</a>
+          <br /><br />
+          <h3>CubeGame</h3>
+          <p>opis: gra o tworzeniu własnego świata z bloków</p>
+          <img id="slider" width="550" height="455" src="/img/cubegame-menu.png">
+          <br />
+          <button onclick="slide1()">1</button>
+          <button onclick="slide2()">2</button>
+          <br />
+          <a href="https://cubegamewebsite.netlify.app/">Strona</a>
+          <br />
+          <a href="https://gamejolt.com/games/Cube-Game/548233">Pobierz</a>
+        </div>
+        <script src="/js/slider.js"></script>
 </body>
 </html>

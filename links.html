@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="telewebsite">
-    <meta name="description" content="strona tele">
     <title>telewebsite - Linki</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="navLink">Home</a>
-        <a href="links.html" class="navLink">Linki</a>
-        <a href="blog/" class="navLink">Blog</a>
-        <a href="about.html" class="navLink">o mnie</a>
-        <a href="projects.html" class="navLink">Projekty</a>
-        <h1>telewebsite</h1>
-    </nav>
-    <br />
-    <div id="main" align="center">
-        <a href="https://github.com/teleguest" id="mediaLinks">Github</a>
+    <div id="background"></div>
+        <nav>
+                <a href="/index.html" class="navLink">Home</a>
+                <a href="/links.html" class="navLink">Linki</a>
+                <a href="/blog/index.html" class="navLink">Blog</a>
+                <a href="/about.html" class="navLink">o mnie</a>
+                <a href="/projects.html" class="navLink">Projekty</a>
+        </nav>
         <br />
-        <a href="https://www.youtube.com/channel/UCLYL2rFEmhGi9S07csDqvFA" id="mediaLinks">YouTube</a>
-        <br />
-        <a href="https://www.reddit.com/r/unixhuman/" id="mediaLinks">Reddit</a>
-        <br />
-        <a href="https://t.me/trzuftech" id="mediaLinks">Telegram</a>
-        <br />
-        <a href="http://unix-room.ct8.pl/wiki" id="mediaLinks">UnixRoom Wiki</a>
-        <br />
-        <a href="https://discord.com/invite/XsbgVmj​" id="mediaLinks">Discord</a>
-    </div>
+        <div id="page">
+            <a href="https://github.com/teleguest" class="mediaLinks">Github</a>
+            <br />
+            <a href="https://www.youtube.com/channel/UCLYL2rFEmhGi9S07csDqvFA" class="mediaLinks">YouTube</a>
+            <br />
+            <a href="https://www.reddit.com/r/unixhuman/" class="mediaLinks">Reddit</a>
+            <br />
+            <a href="https://t.me/trzuftech" class="mediaLinks">Telegram</a>
+            <br />
+            <a href="http://unix-room.ct8.pl/wiki" class="mediaLinks">UnixRoom Wiki</a>
+            <br />
+            <a href="https://discord.com/invite/XsbgVmj​" class="mediaLinks">Discord</a>
+        </div>
+        <script>
+            const audio = new Audio('/js/golob2.mp3');
+            window.addEventListener('click', ()=> {
+                console.log('widziałem co zrobiłeś...');
+                audio.play()
+            })
+        </script>
 </body>
 </html>
